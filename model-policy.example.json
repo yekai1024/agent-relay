@@ -1,0 +1,8 @@
+{
+  "tiers": {
+    "complex": {
+      "model": "REPLACE_WITH_DISCOVERED_MODEL_ID",
+      "reason": "Replace with reviewed capability evidence and current cost rationale"
+    }
+  }
+}

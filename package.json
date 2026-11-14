@@ -1,0 +1,15 @@
+{
+  "name": "agent-relay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Delegate tasks to coding agents over A2A. CodeBuddy is the first verified integration.",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "relay": "node a2a_worker.cjs",
+    "test": "node --test test_a2a_worker.cjs test_model_catalog.cjs",
+    "check": "node --check a2a_worker.cjs && node --check model_catalog.cjs"
+  },
+  "repository": { "type": "git", "url": "https://github.com/yekai1024/agent-relay.git" }
+}
